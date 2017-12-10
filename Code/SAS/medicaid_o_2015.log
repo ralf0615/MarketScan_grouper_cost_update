@@ -1,0 +1,312 @@
+1                                                          The SAS System                          15:54 Wednesday, October 11, 2017
+
+NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M4) 
+      Licensed to TRUVEN HEALTH ANALYTICS INC, Site 70013556.
+NOTE: This session is executing on the AIX 7.1 (AIX 64) platform.
+
+
+
+NOTE: Updated analytical products:
+      
+      SAS/STAT 14.2
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 1 7 00FA44E14C00 
+
+NOTE: SAS initialization used:
+      real time           0.15 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: AUTOEXEC processing beginning; file is /opt/SAS94/SASFoundation/9.4/autoexec.sas.
+
+NOTE: Libref ARCH1990 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1990
+NOTE: Libref ARCH1991 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1991
+NOTE: Libref ARCH1992 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1992
+NOTE: Libref ARCH1993 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1993
+NOTE: Libref ARCH1994 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1994
+NOTE: Libref ARCH1995 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1995
+NOTE: Libref ARCH1996 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1996
+NOTE: Libref ARCH1997 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1997
+NOTE: Libref ARCH1998 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1998
+NOTE: Libref ARCH1999 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1999
+NOTE: Libref ARCH2000 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2000
+NOTE: Libref ARCH2001 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2001
+2                                                          The SAS System                          15:54 Wednesday, October 11, 2017
+
+NOTE: Libref ARCH2002 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2002
+NOTE: Libref ARCH2003 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2003
+NOTE: Libref ARCH2004 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2004
+NOTE: Libref ARCH2005 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2005
+NOTE: Libref ARCH2006 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2006
+NOTE: Libref ARCH2007 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2007
+NOTE: Libref ARCH2008 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2008
+NOTE: Libref ARCH2009 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2009
+NOTE: Libref ARCH2010 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2010
+NOTE: Libref ARCH2011 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2011
+NOTE: Libref ARCH2012 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2012
+NOTE: Libref ARCH2013 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2013
+NOTE: Libref ARCH2014 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2014
+NOTE: Libref ARCH2015 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2015
+NOTE: Libref ARCH2016 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2016
+NOTE: Libref MEG1996 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1996/meg
+NOTE: Libref MEG1997 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1997/meg
+NOTE: Libref MEG1998 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1998/meg
+NOTE: Libref MEG1999 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/1999/meg
+NOTE: Libref MEG2000 was successfully assigned as follows: 
+3                                                          The SAS System                          15:54 Wednesday, October 11, 2017
+
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2000/meg
+NOTE: Libref MEG2001 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2001/meg
+NOTE: Libref MEG2002 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2002/meg
+NOTE: Libref MEG2003 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2003/meg
+NOTE: Libref MEG2004 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2004/meg
+NOTE: Libref MEG2005 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2005/meg
+NOTE: Libref MEG2006 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2006/meg
+NOTE: Libref MEG2007 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2007/meg
+NOTE: Libref MEG2008 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2008/meg
+NOTE: Libref MEG2009 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2009/meg
+NOTE: Libref MEG2010 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2010/meg
+NOTE: Libref MEG2011 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2011/meg
+NOTE: Libref MEG2012 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/2012/meg
+NOTE: Libref MEG2013 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2013/meg
+NOTE: Libref MEG2014 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2014/meg
+NOTE: Libref MEG2015 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2015/meg
+NOTE: Libref MEG2016 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/archive/2016/meg
+NOTE: Libref MDCD1999 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/1999
+NOTE: Libref MDCD2000 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2000
+NOTE: Libref MDCD2001 was successfully assigned as follows: 
+      Engine:        V9 
+4                                                          The SAS System                          15:54 Wednesday, October 11, 2017
+
+      Physical Name: /mscan/data/medicaid/2001
+NOTE: Libref MDCD2002 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2002
+NOTE: Libref MDCD2003 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2003
+NOTE: Libref MDCD2004 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2004
+NOTE: Libref MDCD2005 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2005
+NOTE: Libref MDCD2006 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2006
+NOTE: Libref MDCD2007 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2007
+NOTE: Libref MDCD2008 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2008
+NOTE: Libref MDCD2009 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2009
+NOTE: Libref MDCD2010 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2010
+NOTE: Libref MDCD2011 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2011
+NOTE: Libref MDCD2012 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2012
+NOTE: Libref MDCD2013 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2013
+NOTE: Libref MDCD2014 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2014
+NOTE: Libref MDCD2015 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2015
+NOTE: Libref MDCD2016 was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/2016
+NOTE: Libref EVIEW was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/earlyview
+NOTE: Libref EVIEWMON was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan2/data/earlyview_monthly
+NOTE: Libref MSLAB was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/lab
+NOTE: Libref MSN1 was successfully assigned as follows: 
+      Levels:           1
+      Engine(1):        V9 
+5                                                          The SAS System                          15:54 Wednesday, October 11, 2017
+
+      Physical Name(1): /msn1/data/marketscan_one
+NOTE: Libref MSPROV was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/marketscan_provider
+NOTE: Libref REDBOOK was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/redbook
+NOTE: Libref BPD was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/archive/bpd
+NOTE: Libref LOINCDB was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/loincdb
+NOTE: Libref LIBRARY was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /hic/data/formats
+NOTE: Libref MDCDFMT was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/formats
+NOTE: Libref MDCDPROC was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /mscan/data/medicaid/procedures
+
+NOTE: AUTOEXEC processing completed.
+
+1          libname temp "/rpscan/u071439/Mark_Goodhart";
+NOTE: Libref TEMP was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: /rpscan/u071439/Mark_Goodhart
+2          
+3          proc sql;
+4          create table trash1 as select
+5              ENROLID,
+6              SVCDATE,
+7              PROC1,
+8              PROCGRP,
+9              PROCTYP,
+10             PROCMOD,
+11             max((STDPLAC=11)) as OFC_FLAG,
+12             max((STDPLAC=22)) as OTP_FLAG,
+13             max((STDPLAC=24)) as ASC_FLAG,
+14             SUM(PAY) as PHYSPAY
+15         from
+16             MDCD2015.medicaid_o_2015_v2
+17                 (where=(
+18                         FACPROF='P' and
+19                         PAY>0       and
+20                         missing(ENROLID)+missing(SVCDATE)+missing(PROC1)=0 and
+21                             (
+22                                 PROCTYP='1' or PROCTYP='7' or PROCTYP='8'
+23                             )
+24                         )
+25                 )
+26         group by
+27             ENROLID,
+28             SVCDATE,
+29             PROC1,
+30             PROCGRP;
+6                                                          The SAS System                          15:54 Wednesday, October 11, 2017
+
+NOTE: The query requires remerging summary statistics back with the original data.
+NOTE: Table WORK.TRASH1 created, with 213268638 rows and 10 columns.
+
+30       !              /*PROCGRP this is redundant only to save it in the file*/
+31         
+32         
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           30:41.91
+      cpu time            9:10.50
+      
